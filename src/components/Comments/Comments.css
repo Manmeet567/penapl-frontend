@@ -1,0 +1,19 @@
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused){
+  height: 350px;
+}
+
+.ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+  height: 350px;
+}
+
+.cs-comments::-webkit-scrollbar {
+  width:8px;  
+}
+.cs-comments::-webkit-scrollbar-track{
+  background-color: rgb(212, 212, 212);
+  border-radius: 5px;
+}
+.cs-comments::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}

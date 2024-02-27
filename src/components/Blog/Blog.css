@@ -1,0 +1,4 @@
+.blogContent{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,4 @@
+.add-subtitle:hover, .add-cover-image:hover{
+    background-color: rgba(166, 213, 255, 0.418);
+    border-radius: 50px;
+}

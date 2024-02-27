@@ -1,0 +1,67 @@
+.navbar{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    box-shadow:10px 20px 30px rgba(0,0,0,0.2);
+    position: fixed;
+    z-index: 999;
+    max-height: 76px;
+    overflow: hidden;
+    /* border-bottom: 1px solid #093D65; */
+}
+.nav-img-logo{
+    width: 140px;
+    height: 62px;
+}
+
+.navbar-inner-content{
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center ; */
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+.navbar-inner-content > .items{
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
+.navbar-inner-content>.items>.item{
+    margin: 0 15px;
+}
+.item>a{
+    color: #000;
+    font-weight: 700;
+}
+
+.search-bar{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 8px 15px;
+    transition: .2s linear;
+}
+/* .search-bar.show{
+    width: 400px;
+    padding: 8px 15px;
+} */
+
+
+
+
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar, .ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners{
+    margin-top: 20px;   
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
+    height: 450px;
+}
+
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused){
+    height: 450px;
+}
+

@@ -1,0 +1,37 @@
+.speaker-icon-off:hover + .speakerInfo {
+  display: block;
+}
+
+.speakerInfo {
+  position: absolute;
+  background-color: rgb(58, 58, 58);
+  padding: 8px 16px;
+  text-align: center;
+  color: #fff;
+  max-width: 240px;
+  border-radius: 40px;
+  top: 65.3%;
+  transform: translateY(-50%);
+  left: 335px; /* Adjust the distance from the speaker-icon */
+  display: none; /* Initially hide it */
+}
+
+.speakerInfo::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -4px; /* Adjust the distance from the left side of speakerInfo */
+  transform: translateY(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  background-color: rgb(58, 58, 58);
+}
+
+.transcript-word {
+  color: #333; /* Default color for words */
+  cursor: pointer;
+}
+
+.transcript-word.active {
+  color: blue; /* Color for the active (clicked) word */
+}
